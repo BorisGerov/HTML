@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <table border="1">
+          <form action="#" >
+            <label for="lastname"><strong>Last Name</strong></label>
+            <input id="lastname" type="text" placeholder="Nakov" name="lastName" required="required">
+            <br/>
+            <label for="firstname"><strong>First Name</strong></label>
+            <input id="firstname" type="text" placeholder="Svetlin" name="firstName" required="required">
+            <br/>
+            <strong>Adress</strong>
+            <textarea name="adress">17 Hristo Botev Str, floor 3, apt. 12
+            </textarea>
+            <br/>
+            <label for="city"><strong>City</strong></label>
+            <input id="city" type="text" placeholder="Kaspichan" name="city" required="required">
+            <label for="state"><strong>State</strong></label>
+            <input id="state" type="text" placeholder="" name="state" required="required">
+            <br/>
+            <label for="zip"><strong>Zip/Postal Code</strong></label>
+            <input id="zip" type="text" placeholder="9325" name="zip" required="required">
+            <br/>
+            <label for="country"><strong>Country</strong></label>
+            <select name="countries">
+                <option value="Bulgaria" selected="selected">Bulgaria</option>
+                <option value="Serbia">Serbia</option>
+                <option value="Romania">Romania</option>
+            </select>
+            <br/>
+            <label for="phone"><strong>Phone(country code, area code , number)</strong></label>
+            (+<input id="phone" type="text" placeholder="359" name="phone" required="required">)
+            <input id="phone" type="text" placeholder="88" name="phone" required="required">
+            - <input id="phone" type="text" placeholder="8334343" name="phone" required="required">
+            <br/>
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" required="true" placeholder="nakov@kaspichan.org" pattern="[^ @]*@[^ @].[^ @]"/>
+            <br/>
+            <label for="date"><strong>Birth Date</strong></label>
+            Month<input type="text" placeholder="06" >
+            Day<input type="text" placeholder="14" >
+            Year (4 Digit)<input type="text" placeholder="1980" >
+            <br/>
+            <label for="gender"><strong>Gender</strong></label>
+            <select name="gender">
+                <option value="male" selected="selected">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br/>
+            <label for="start"><strong>Starting Date</strong></label>
+            <label for="Spring">Spring 2006</label>
+            <input type="radio" id="Spring" name="Starting Date" value="spring 2006">
+            <label for="Summer">Summer 2006</label>
+            <input type="radio" id="Summer" name="Starting Date" value="Summer 2006">
+            <br/>
+            <strong>Comments/Questions</strong>
+            <textarea name="Comments">Please send me nor information about the lodging.</textarea>
+            <br/>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear This Form">
+         </form>  
+        </table>
+    </body>
+</html>
